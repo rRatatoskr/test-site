@@ -1,17 +1,20 @@
 .container {
     margin: auto;
-    max-width: 500px;
+    max-width: 1000px;
     font-family: sans-serif;
+    text-align: center;
 }
 
 .heading {
     color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
     padding-left: 0;
+    text-align: right;
 }
 
 .nav-link-item {
