@@ -1,18 +1,19 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import Seo from '../components/seo'
 
 const AboutPage = () => {
     return (
         <Layout pageTitle="私について">
             <p>我はこの世界を統べるものである．</p>
+            <p>\int_0^\infty x^2 dx</p>
         </Layout>
     )
 }
 
 export const Head = () => (
     <>
-    <title>私について</title>
-    <meta name="description" content="Your description"/>
+    <Seo title="About Me"/>
     </>
 )
 
